@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'LetterGothic'; /* Name your font family */
+    src: url('../Fonts/LetterGothicStd.otf'); /* Locate the .ttf file within your directory*/
+    font-family: 'LetterGothicBold'; /* Name your font family */
+    src: url('../Fonts/LetterGothicStd-Bold.otf'); /* Locate the .ttf file within your directory*/
+    font-family: 'Futura'; /* Name your font family */
+    src: url('../Fonts/futura-demi-bold.otf'); /* Locate the .ttf file within your directory*/
+  }
+  
+
+
+html{
+    font-family: 'LetterGothic', sans-serif;
+    background-color:#fcf6b1;
+    height:100%;
+}
+
+body{
+    height:100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    display: flex; /* or inline-flex */
+    justify-content: center;
+    font-family: 'LetterGothicBold', sans-serif;
+}
+
+h2
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'LetterGothic', sans-serif;
+}
+
+normal-content, anomaly-content{
+    display: flex; /* or inline-flex */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:#ffb400;
+}
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    font-size: small;
+  }
+
+#redStrip{
+    display: flex;
+    width: 100%;
+    height: 10px;
+    background-color: #b80c09;
+}
+
+#mainContent{
+    flex: 1 0 auto;
+}
+
